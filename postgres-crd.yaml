@@ -1,0 +1,4 @@
+apiVersion: stable.example.io/v1
+kind: Database
+metadata:
+  name: postgres

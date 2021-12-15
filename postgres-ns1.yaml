@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+   name: postgres-namespace
+   ownerReferences:
+    - apiVersion: v1
+      controller: true
+      blockOwnerDeletion: true
+      kind: Database
+      name: postgres
+      uid: 9c3bbd6e-43a3-462c-9190-00f1df9cb1ac 
